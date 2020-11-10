@@ -1,0 +1,24 @@
+.login {
+  max-width: 550px;
+  margin: auto;
+}
+.login__brand_wrap {
+  text-align: center;
+}
+.login__brand {
+  font-size: 40px;
+  margin-top: 1rem;
+  color: var(--default);
+}
+
+.login__submit {
+  background: var(--default);
+  border-radius: 2rem;
+}
+
+.login__signup_link {
+  text-align: center !important;
+  display: block;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
