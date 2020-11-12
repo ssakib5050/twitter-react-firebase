@@ -231,6 +231,7 @@
 }
 .middleSidebar__tweeter_right {
   padding-left: 5px;
+  flex: 1;
 }
 .middleSidebar__tweeter_right_link {
   text-decoration: none !important;

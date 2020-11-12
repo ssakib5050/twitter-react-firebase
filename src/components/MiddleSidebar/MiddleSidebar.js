@@ -375,46 +375,40 @@ function Tweet(tweet) {
       </Modal>
 
       <div className="middleSidebar__tweet_top">
-        <Link to={`/post/${tweet.tweetId}`}>
-          <div className="middleSidebar__tweet_img_wrap">
-            <img
-              src={tweet.tweetPhotoURL}
-              alt=""
-              className="middleSidebar__tweeter_img"
-            />
-          </div>
-        </Link>
-        <Link
-          to={`/post/${tweet.tweetId}`}
-          className="middleSidebar__tweeter_right_link"
-        >
-          <div className="middleSidebar__tweeter_right">
-            <div className="middleSidebar__tweeter_header">
-              <p className="middleSidebar__tweeter_header_name">
-                {tweet.tweetUsername}
-              </p>
-              <span className="middleSidebar__tweeter_header_timeline">
-                <Moment fromNow ago>
-                  {tweet.tweetTimestamp}
-                </Moment>
-              </span>
-            </div>
+        <div className="middleSidebar__tweet_img_wrap">
+          <img
+            src={tweet.tweetPhotoURL}
+            alt=""
+            className="middleSidebar__tweeter_img"
+          />
+        </div>
 
-            <p className="middleSidebar__tweeter_header_timeline_tweet">
-              {tweet.tweetInput}
+        <div className="middleSidebar__tweeter_right">
+          <div className="middleSidebar__tweeter_header">
+            <p className="middleSidebar__tweeter_header_name">
+              {tweet.tweetUsername}
             </p>
-
-            {tweet.tweetInputImage && (
-              <div>
-                <img
-                  src={tweet.tweetInputImage}
-                  alt=""
-                  className="middleSidebar__tweeter_header_timeline_image mb-2"
-                />
-              </div>
-            )}
+            <span className="middleSidebar__tweeter_header_timeline">
+              <Moment fromNow ago>
+                {tweet.tweetTimestamp}
+              </Moment>
+            </span>
           </div>
-        </Link>
+
+          <p className="middleSidebar__tweeter_header_timeline_tweet">
+            {tweet.tweetInput}
+          </p>
+
+          {tweet.tweetInputImage && (
+            <div>
+              <img
+                src={tweet.tweetInputImage}
+                alt=""
+                className="middleSidebar__tweeter_header_timeline_image mb-2"
+              />
+            </div>
+          )}
+        </div>
 
         <div>
           <Dropdown isOpen={dropdownOpen} toggle={toggle}>
@@ -445,9 +439,7 @@ function Tweet(tweet) {
               className="middleSidebar__tweeter_comment_like_share_icon"
             />
           </div>
-          <div className="middleSidebar__tweeter_comment_like_share_icon_count">
-            100
-          </div>
+          <div className="middleSidebar__tweeter_comment_like_share_icon_count"></div>
         </div>
 
         <div className="middleSidebar__tweeter_comment_like_share_icon_wrap middleSidebar__tweeter_comment_like_share_icon_wrap2 ">
