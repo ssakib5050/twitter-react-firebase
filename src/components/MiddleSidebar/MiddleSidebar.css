@@ -1,2 +1,266 @@
 .MiddleSidebar {
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+}
+.middleSidebar_tweet_input_wrap {
+  border-bottom: 10px solid #e6ecf0;
+  padding: 10px;
+}
+.middleSidebar_tweet_input_wrap_container {
+  display: flex;
+}
+.middleSidebar__tweet_img {
+  height: 40px;
+  width: 40px;
+  border-radius: 2rem;
+  margin-right: 5px;
+}
+
+.middleSidebar__textarea {
+  flex: 1;
+  border: none;
+  margin-left: 5px;
+  margin-top: 5px;
+  outline: 0;
+  resize: none;
+}
+
+.middleSidebar__tool_wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 45px;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.middleSidebar__tool_wrap_left {
+  display: flex;
+}
+
+.middleSidebar__tool_wrap_right_tweet {
+  border: none;
+  background: var(--default);
+  color: #fff;
+  padding: 5px 20px;
+  border-radius: 1rem;
+  outline: 0 !important;
+}
+.middleSidebar__tool_wrap_right_tweet:disabled {
+  opacity: 0.7;
+}
+.middleSidebar__tool_wrap_left_icon_wrap {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-right: 5px;
+  border-radius: 2rem;
+  margin-bottom: 0;
+}
+.middleSidebar__tool_wrap_left_icon_wrap {
+  cursor: pointer;
+}
+.middleSidebar__tool_wrap_left_icon_wrap:hover {
+  background: rgb(29, 161, 242, 0.2);
+}
+.middleSidebar__tool_wrap_left_icon {
+  font-size: 20px;
+  color: var(--default);
+  cursor: pointer;
+}
+.middleSidebar__tweeting_img_wrap {
+  position: relative;
+  margin-left: 40px;
+}
+.middleSidebar__tweeting_img {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+}
+.middleSidebar__tweeting_cross {
+  position: absolute;
+  font-weight: bold;
+  color: #fff;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  padding: 5px;
+  background: #000;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+.middleSidebar__tweet_top {
+  display: flex;
+}
+
+.middleSidebar__tweet_img_wrap {
+  height: 40px;
+  width: 40px;
+}
+.middleSidebar__tweeter_img {
+  height: 40px;
+  width: 40px;
+  border-radius: 2rem;
+}
+.middleSidebar__tweeter_header {
+  display: flex;
+}
+.middleSidebar__tweeter_header_name {
+  margin-bottom: 0px;
+  font-weight: bold;
+  padding-right: 5px;
+  color: #000;
+}
+.middleSidebar__tweeter_header_timeline {
+  color: #777;
+}
+
+.middleSidebar__tweeter_toggle {
+  background: transparent !important;
+  color: #000 !important;
+  padding: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.middleSidebar__tweeter_toggle::after {
+  display: none !important;
+}
+
+.dropdown-menu .dropdown-item {
+  outline: 0;
+}
+
+.middleSidebar__tweeter_comment_like_share {
+  display: flex;
+  color: #777;
+}
+
+.middleSidebar__tweeter_comment_like_share_icon_wrap {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.middleSidebar__tweeter_comment_like_share_icon_wrap:hover {
+  cursor: pointer;
+}
+.middleSidebar__tweeter_comment_like_share_icon {
+  font-size: 21px;
+  align-self: center;
+  display: flex;
+}
+.middleSidebar__tweeter_comment_like_share_icon_count {
+  font-size: 19px;
+}
+
+.middleSidebar__tweeter_comment_like_share_icon_wrap1:hover {
+  color: var(--default);
+}
+
+.middleSidebar__tweeter_comment_like_share_icon_wrap2:hover {
+  color: #2ecc71;
+}
+
+.middleSidebar__tweeter_comment_like_share_icon_wrap3:hover {
+  color: #e74c3c;
+}
+
+.middleSidebar__tweeter_comment_like_share_icon_wrap4:hover {
+  color: var(--default);
+}
+
+.retweet_main_wrap {
+}
+
+.retweet_main_wrap_header {
+  display: flex;
+}
+.tweet__input_textarea {
+  width: 100%;
+}
+.tweet__input_img_wrap {
+  height: 40px;
+  width: 40px;
+}
+
+.tweet__input_img {
+  height: 40px;
+  width: 40px;
+  border-radius: 2rem;
+}
+
+.tweet__input_username {
+  font-weight: bold;
+}
+
+.tweet_img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+
+.tweet__img_wrap {
+  position: relative;
+}
+.tweet_img_cross {
+  position: absolute;
+  top: 25px;
+  right: 10px;
+  background: #000;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+.middleSidebar__tweet__wrap {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+.middleSidebar__tweeter_right {
+  padding-left: 5px;
+}
+.middleSidebar__tweeter_right_link {
+  text-decoration: none !important;
+  flex: 1;
+}
+.middleSidebar__tweeter_header_timeline_tweet {
+  color: #000;
+}
+
+#tweeter__photo_upload {
+  display: none;
+}
+.middleSidebar__tool_wrap_right_tweet.active {
+  opacity: 0.5;
+}
+.tweet__input_textarea {
+  outline: 0;
+  border: none;
+  margin-left: 5px;
+  resize: none;
+}
+#retweet__file_img {
+  display: none;
+}
+
+.middleSidebar__tweeter_comment_like_share_icon_count.active,
+.middleSidebar__tweeter_comment_like_share_icon.active {
+  color: #e74c3c;
+}
+.middleSidebar__tweeter_header_timeline_image {
+  width: 100%;
+  border-radius: 1rem;
 }

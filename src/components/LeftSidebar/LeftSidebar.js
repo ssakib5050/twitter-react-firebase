@@ -22,7 +22,8 @@ import {
   faChevronDown,
 } from "../../fontawesome";
 
-function LeftSidebar() {
+function LeftSidebar(globalData) {
+  const mainImage = globalData.data && globalData.data[0].photoURL;
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const toggle = () => setDropdownOpen((prevState) => !prevState);
   return (
@@ -54,11 +55,8 @@ function LeftSidebar() {
               className="leftSidebar__footer_dropdown_button_toggle"
             >
               <div className="leftSidebar__footer_wrap">
-                <img
-                  src="https://via.placeholder.com/150"
-                  alt=""
-                  className="leftSidebar__img"
-                />
+                <img src={mainImage} alt="" className="leftSidebar__img" />
+
                 <span className="font-weight-bold leftSidebar__footer_text">
                   Rajib Khan
                 </span>

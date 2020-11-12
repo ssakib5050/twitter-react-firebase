@@ -12,6 +12,8 @@
 }
 .middleSidebar {
   flex: 1;
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
 }
 .rightSidebar {
   width: 300px;

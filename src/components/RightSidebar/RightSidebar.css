@@ -2,4 +2,85 @@
   position: fixed;
   width: inherit;
   height: 100%;
+  overflow: auto;
+  padding-left: 5px;
+}
+
+.rightSidebar__search_wrap {
+  border-radius: 2rem;
+  background: #e6ecf0;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.rightSidebar__search_icon {
+  color: #777;
+  font-size: 18px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.rightSidebar__search_input {
+  background: transparent;
+  flex: 1;
+  font-size: 18px;
+  border: none;
+  outline: 0;
+}
+.rightSidebar__trending {
+  background: #e6ecf0;
+  margin-top: 1rem;
+  border-radius: 1rem;
+}
+.rightSidebar__trending_item_wrap {
+  border-bottom: 1px solid #ddd;
+}
+.rightSidebar__trending_item_tag {
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+.rightSidebar__trending_item_tag_count {
+  margin-bottom: 0px;
+}
+
+.rightSidebar__trending_button {
+  width: 100%;
+  color: var(--default);
+  background: transparent;
+  border: none;
+  text-align: left;
+}
+
+.rightSidebar__last_buttons {
+}
+.rightSidebar__last_buttons button {
+  border: none;
+  background: transparent;
+  color: #777;
+  font-size: 13px;
+}
+
+.rightSidear__trending_item_img {
+  height: 40px;
+  width: 40px;
+  border-radius: 2rem;
+}
+
+.rightSidebar__who_item_wrap {
+  display: flex;
+  align-items: center;
+}
+.rightSidebar__who_item_name {
+  flex: 1;
+  margin-left: 5px;
+}
+.rightSidebar__who_item_button {
+  margin-right: 5px;
+  border: 1px solid var(--default);
+  color: var(--default);
+  border-radius: 1rem;
+  padding-right: 10px;
+  padding-left: 10px;
+  background: transparent;
+  outline: 0 !important;
 }
